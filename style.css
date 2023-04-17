@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+  
+    
+}
+
+header {
+	padding: 20px;
+	text-align: center;
+   
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px 0;
+  
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 22px;
+    font-weight:bolder;
+
+}
+
+nav a:hover {
+color: #007bff;
+}
+
+h1 {
+font-size: 36px;
+margin: 10px 0;
+}
+
+p {
+font-size: 18px;
+margin: 10px 0;
+}
+
+main {
+padding: 20px;
+}
+
+section {
+margin: 20px 0;
+}
+
+h2 {
+font-size: 28px;
+margin: 10px 0;
+}
+
+
+footer {
+background-color: #007bff;
+padding: 20px;
+color: #fff;
+text-align: center;
+}
+
+  .card {
+    width: 24.5%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+ }
+
+ .image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+
+ }
+
+ .title {
+
+    text-align: center;
+    padding: 10px;
+
+ }
+
+ h1 {
+    font-size: 20px;
+ }
+
+ .des {
+    padding: 3px;
+    text-align: center;
+
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+
+ button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+ }
+.button{
+    padding-left:110px;
+}
+ button:hover {
+    background-color: #0062cc;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+ }
+ .service-grids-w3ls{
+    padding: 15px;
+    border: 2px solid transparent;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 5%;
+    width: 15%;
+    margin: 0 1px;
+ }
+ .service-grid1{
+    margin-top:1.5em;
+ }
+ .service-grids-w3ls i {
+    font-size: 27px;
+    color: #444;
+    transition: 0.5s all;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+}
+.service-grids-w3ls h5 {
+    color: #777;
+    font-size: 21px;
+    text-transform: capitalize;
+    padding: 20px 0 10px;
+   
+}
+.service-grids-w3ls p {
+    color: #000;
+    font-size: 16px;
+}
